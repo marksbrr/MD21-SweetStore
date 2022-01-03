@@ -1,0 +1,38 @@
+.card__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.info__container {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+}
+
+.card__text {
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.card__text-heavy {
+    font-size: 22px;
+}
+
+.card__images {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+
+    &:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
